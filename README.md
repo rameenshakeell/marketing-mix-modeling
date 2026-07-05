@@ -63,6 +63,10 @@ Python, pandas, NumPy, scikit-learn (Ridge/RidgeCV), SciPy (optimization), Matpl
 
 ## Files
 
-- `data/mmm_weekly_data.csv` — synthetic weekly spend (by channel) and sales
-- `data/mmm_ground_truth.csv` — true channel contributions (validation only, not used in modeling)
-- `notebooks/mmm_analysis.ipynb` — full analysis, from data generation through validation
+- `Data/mmm_weekly_data.csv`: synthetic weekly spend (by channel) and sales
+- `Data/mmm_ground_truth.csv`: true channel contributions (validation only, not used in modeling)
+- `Data/mmm_dashboard_data.csv`: enriched export (predictions, contributions) used for the Power BI dashboard
+- `Data/mmm_ground_truth_comparison.csv`: summary comparison table used in the dashboard
+- `Notebooks/mmm_analysis.ipynb`: full analysis, from data generation through validation
+- `Screenshots/`: dashboard screenshots referenced above
+- `mmm_dashboard.pbix`: full interactive Power BI dashboard
