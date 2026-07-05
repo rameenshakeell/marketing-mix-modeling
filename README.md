@@ -2,6 +2,8 @@ Marketing Mix Modeling: Channel Attribution & Its Limits
 
 What this project does
 
+![Actual vs predicted sales](actual_vs_predicted.png)
+
 Builds a Marketing Mix Model (MMM) to estimate how much each marketing channel (TV, paid search, social, email) contributes to weekly sales, using only spend and sales data - the same constraint real analysts face before running paid experiments.
 
 Rather than stopping at "here's a model," this project validates every result against a known ground truth (since the dataset is synthetic, generated with true, hidden contribution values), and documents exactly where the model succeeds and where it hits a real, well-known limitation of regression-based MMM.
